@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  VisualMenu
+
+  Created by Anant Singh on 6/15/21.
+  
+*/
+//Welcome screen:
+"str_food_title" = "Menu visuel !";
+"str_food_desc" = "Sélectionnez une image pour son ingrédients et description!";
+////Food titles
+"str_burger" = "Burger";
+"str_pizza"  = "Pizza";
+"str_sandwich" = "Sandwich";
+"str_steak" = "Dîner de steak";
+"str_bento" = "Boîte à bento";
+"str_burrito" = "Burrito";
+"str_udon" = "Udon";
+"str_spag" = "Spaghetti";
+"str_drinks" = "Breuvages";
+
+////Food descriptions
+
+"str_burger_desc" = "Un cheeseburger classique avec de la laitue, des tomates et des cornichons.";
+
+"str_pizza_desc"  = "Les pizzas sont au pepporoni ou au fromage.";
+
+
+
+"str_sandwich_desc" = "Dinde, bacon, laitue, sandwich à la tomate.";
+
+
+
+"str_steak_desc" = "Bœuf USDA préparé à la commande, servi avec purée de pommes de terre.";
+
+
+
+"str_bento_desc" = "Assortiment de 4 sashimi, 1 rouleau californien, soupe miso et salade.";
+
+
+
+"str_burrito_desc" = "Du poulet, du bœuf, du porc ou simplement du riz et des haricots avec du fromage, de la laitue et de la salsa.";
+
+
+
+"str_udon_desc" = "Udon au poulet ou aux légumes.";
+
+
+
+"str_spag_desc" = "Spaghetti aux boulettes de viande ou à la sauce rouge uniquement.";
+
+
+
+"str_drinks_desc" = "Coke, Coke Diète, Sprite, Eau Glacée.";
+
+//Money signs
+"str_currency" = "\€";
+
+

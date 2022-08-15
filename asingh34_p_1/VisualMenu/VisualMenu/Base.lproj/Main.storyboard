@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VisualMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="9Xi-Z8-UMH" userLabel="Main Stack View">
+                                <rect key="frame" x="12" y="56" width="404" height="824"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="E5e-2j-YP4" userLabel="FoodItem Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="404" height="404"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="oyE-he-52u">
+                                                <rect key="frame" x="0.0" y="0.0" width="404" height="132"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWV-Aq-ybk" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRN-Nh-568"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uek-QA-PDM" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="136" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tul-cq-11L"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9W-BN-ijh" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="272" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UWp-Ql-rc2"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="fdn-oQ-W1w">
+                                                <rect key="frame" x="0.0" y="136" width="404" height="132"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycE-j4-naa" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Big-Cv-gQu"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeB-11-V9o" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="136" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XTp-VR-iGD"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncb-io-BGY" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="272" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bES-bG-iIQ"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yFA-cF-Gjh">
+                                                <rect key="frame" x="0.0" y="272" width="404" height="132"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-87-ETC" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y8i-xv-rla"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZk-yc-sEP" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="136" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dKk-NT-7S1"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2z-2Z-6g6" customClass="ItemButton" customModule="VisualMenu" customModuleProvider="target">
+                                                        <rect key="frame" x="272" y="0.0" width="132" height="132"/>
+                                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                                        <state key="normal" title="🍔"/>
+                                                        <connections>
+                                                            <action selector="ItemClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7qR-9E-PL2"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="E5e-2j-YP4" secondAttribute="height" multiplier="1:1" id="Z8e-Va-AME"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdV-QK-Xhk">
+                                        <rect key="frame" x="0.0" y="406" width="404" height="418"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="WQ7-60-68J">
+                                                <rect key="frame" x="18" y="8" width="369" height="68.666666666666671"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="str_food_title               " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAM-k5-BqL" userLabel="FoodTitle">
+                                                        <rect key="frame" x="0.0" y="0.0" width="369" height="42"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="str_food_desc" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6T-db-gtW">
+                                                        <rect key="frame" x="0.0" y="47" width="369" height="21.666666666666671"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="b6T-db-gtW" firstAttribute="top" secondItem="xAM-k5-BqL" secondAttribute="bottom" constant="5" id="dUF-Bx-Ppg"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="WQ7-60-68J" secondAttribute="trailing" constant="17" id="249-2v-0Ma"/>
+                                            <constraint firstItem="WQ7-60-68J" firstAttribute="leading" secondItem="bdV-QK-Xhk" secondAttribute="leading" constant="18" id="WDt-ca-XOa"/>
+                                            <constraint firstItem="WQ7-60-68J" firstAttribute="top" secondItem="bdV-QK-Xhk" secondAttribute="top" constant="8" id="isJ-K8-aoU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9Xi-Z8-UMH" secondAttribute="bottom" constant="12" id="MU5-tl-FqR"/>
+                            <constraint firstItem="9Xi-Z8-UMH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="Yyq-v1-a8O"/>
+                            <constraint firstItem="9Xi-Z8-UMH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="bIC-Pu-cp5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Xi-Z8-UMH" secondAttribute="trailing" constant="12" id="vDD-G6-dOc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="FoodDesc" destination="b6T-db-gtW" id="xP8-ta-nm8"/>
+                        <outlet property="FoodTitle" destination="xAM-k5-BqL" id="uoM-KO-Ldf"/>
+                        <outletCollection property="ItemSquare" destination="mWV-Aq-ybk" collectionClass="NSMutableArray" id="pXA-yp-dny"/>
+                        <outletCollection property="ItemSquare" destination="Uek-QA-PDM" collectionClass="NSMutableArray" id="qpf-AO-kpf"/>
+                        <outletCollection property="ItemSquare" destination="l9W-BN-ijh" collectionClass="NSMutableArray" id="SK4-s4-rii"/>
+                        <outletCollection property="ItemSquare" destination="ycE-j4-naa" collectionClass="NSMutableArray" id="3Oe-hz-SGf"/>
+                        <outletCollection property="ItemSquare" destination="PeB-11-V9o" collectionClass="NSMutableArray" id="duL-cc-NLX"/>
+                        <outletCollection property="ItemSquare" destination="ncb-io-BGY" collectionClass="NSMutableArray" id="cDq-EC-yfW"/>
+                        <outletCollection property="ItemSquare" destination="vgv-87-ETC" collectionClass="NSMutableArray" id="XsO-NW-RSC"/>
+                        <outletCollection property="ItemSquare" destination="LZk-yc-sEP" collectionClass="NSMutableArray" id="8h8-Ns-Ype"/>
+                        <outletCollection property="ItemSquare" destination="a2z-2Z-6g6" collectionClass="NSMutableArray" id="ph1-4W-aVW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-332" y="-43"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

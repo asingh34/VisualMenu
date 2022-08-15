@@ -1,0 +1,60 @@
+
+/*
+  Localizable.strings
+  VisualMenu
+
+  Created by Anant Singh on 6/15/21.
+  
+*/
+//Welcome screen:
+"str_food_title"    =      "Visual Menu!";
+
+"str_food_desc"     =       "Select an image for it's ingredients and descrption!";
+////Food titles
+"str_burger" = "Burger";
+"str_pizza"  = "Pizza";
+"str_sandwich" = "Sandwich";
+"str_steak" = "Steak Dinner";
+"str_bento" = "Bento Box";
+"str_burrito" = "Burrito";
+"str_udon" = "Udon";
+"str_spag" = "Spaghetti";
+"str_drinks" = "Beverages";
+
+////Food descriptions
+"str_burger_desc" = "A classic cheeseburger with lettuce, tomato, and pickles.";
+
+
+
+"str_pizza_desc"  = "Pizza comes in either pepporoni or cheese.";
+
+
+
+"str_sandwich_desc" = "Turkey, bacon, lettuce, Tomato sandwich.";
+
+
+
+"str_steak_desc" = "USDA prime beef cooked to order served with mashed potatoes.";
+
+
+
+"str_bento_desc" = "Assortment of 4 sashimi, 1 california roll, miso soup, and salad.";
+
+
+
+"str_burrito_desc" = "Chicken, beef, pork, or just rice and beans with cheese, lettuce, and salsa.";
+
+
+
+"str_udon_desc" = "Chicken or Vegetable udon.";
+
+
+
+"str_spag_desc" = "Spaghetti with meatballs or with red sauce only.";
+
+
+
+"str_drinks_desc" = "Coke, Diet Coke, Sprite, Ice Water";
+
+//Money signs
+"str_currency" = "\$"; 
